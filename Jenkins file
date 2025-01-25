@@ -5,7 +5,7 @@ pipeline {
         stage("Code") {
             steps {
                 echo "This is cloning the code"
-                git url: "https://github.com/abhilash9496/jiitak_python.git", branch: "main"
+                git url: "https://github.com/abhilash9496/Django-CICD.git", branch: "main"
                 echo "Code cloning successfully"
             }
         }
